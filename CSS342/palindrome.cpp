@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isPalindrome(std:: string s){
+bool isPalindrome(const string& s){
     //grap the index
     int left = 0; 
     int right = s.size() -1; 
